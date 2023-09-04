@@ -10,6 +10,7 @@
 body {
 	background: var(--bg-url) no-repeat top center/cover;
 	transition: all 0.5s;
+	height: 100vh;
 }
 
 :root {
@@ -36,7 +37,6 @@ body {
 body * {
 	font-family: 'Inter', sans-serif;
 	color: var(--textcolor);
-	height: 100vh;
 }
 
 #container {
@@ -145,11 +145,11 @@ footer a:hover{
 	top: 50%;
 	transform: translateY(-50%);
 	cursor: pointer;
+	animation: slide-back 0.4s;
 }
 
 .light #switch button {
-	right: 0;
-	left: initial;
+	animation: slide-in 0.4s forwards;
 }
 
 
@@ -167,6 +167,11 @@ footer a:hover{
 @keyframes slide-in {
 	from {left: 0}
 	to {left: 50%}
+}
+
+@keyframes slide-back {
+	from {left: 50%}
+	to {left: 0}
 }
 
 /* media-queries */
