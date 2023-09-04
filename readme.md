@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Linktree é um agregado de links para usar como cartão de visitas online
+O Linktree é um agregado de links para usar como cartão de visitas online.
 
 ## 🔖 Layout
 
@@ -40,6 +40,8 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 ## :memo: Licença
 
+Esse projeto está sob a licença MIT.
+
 ---
 
-Feito com ❤️ pela <a href="https://www.rocketseat.com.br/">Rocketseat</a> :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
