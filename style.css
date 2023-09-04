@@ -7,16 +7,6 @@
 	box-sizing: border-box;
 }
 
-@keyframes move-to-right {
-	from {left: 0; transition: all 0.5s ease;}
-	to {right: initial; transition: all 0.5s ease;}
-}
-
-@keyframes move-to-left {
-	from {left: initial; transition: all 0.5s ease;}
-	to {right: 0; transition: all 0.5s ease;}
-}
-
 body {
 	background: var(--bg-url) no-repeat top center/cover;
 	transition: all 0.5s;
@@ -49,8 +39,9 @@ body * {
 }
 
 #container {
-	width: 360px;
+	width: 100%;
 	margin: 56px auto 0px;
+	max-width: 588px;
 	padding: 0 24px;
 }
 
